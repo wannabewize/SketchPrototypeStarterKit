@@ -12,6 +12,7 @@
 		148C30011E2327F000973C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148C2FFF1E2327F000973C5C /* Main.storyboard */; };
 		148C30031E2327F000973C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148C30021E2327F000973C5C /* Assets.xcassets */; };
 		148C30061E2327F000973C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148C30041E2327F000973C5C /* LaunchScreen.storyboard */; };
+		2C1D5AE71F4B0C7F00024FE2 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1D5AE61F4B0C7F00024FE2 /* UIViewController+Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		148C30021E2327F000973C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		148C30051E2327F000973C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		148C30071E2327F000973C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1D5AE61F4B0C7F00024FE2 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Navigation.swift"; path = "../../UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		148C2FFA1E2327F000973C5C /* SketchPrototypeStarterKit */ = {
 			isa = PBXGroup;
 			children = (
+				2C1D5AE61F4B0C7F00024FE2 /* UIViewController+Navigation.swift */,
 				148C2FFB1E2327F000973C5C /* AppDelegate.swift */,
 				148C2FFD1E2327F000973C5C /* ViewController.swift */,
 				148C2FFF1E2327F000973C5C /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1D5AE71F4B0C7F00024FE2 /* UIViewController+Navigation.swift in Sources */,
 				148C2FFE1E2327F000973C5C /* ViewController.swift in Sources */,
 				148C2FFC1E2327F000973C5C /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				148C300C1E2327F000973C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
